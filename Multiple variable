@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(void) 
+{
+  int x,y,z;
+  scanf("%i", &x);
+  scanf("%i", &y);
+  z=x+y;
+  printf("The sum of the two number:%.2i  \n",z);
+  printf("The sum of %.2i and %.2i is:%2i\n",x,y,z);
+  return 0;
+}
